@@ -1,0 +1,81 @@
+# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+
+# dependencies
+/node_modules
+/.pnp
+.pnp.*
+.yarn/*
+!.yarn/patches
+!.yarn/plugins
+!.yarn/releases
+!.yarn/versions
+
+# testing
+/coverage
+
+# next.js
+/.next/
+/out/
+
+# production
+/build
+
+# misc
+.DS_Store
+*.pem
+
+# debug
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.pnpm-debug.log*
+
+# env files (can opt-in for committing if needed)
+.env*
+
+# vercel
+.vercel
+
+# typescript
+*.tsbuildinfo
+next-env.d.ts
+
+# -----------------------------
+# Agent / tooling artifacts
+# -----------------------------
+# Keep agent platform directories out of the repo
+.agent/
+.agents/
+.claude/
+.codebuddy/
+.codex/
+.continue/
+.cursor/
+.gemini/
+.kiro/
+.opencode/
+.qoder/
+.roo/
+.trae/
+.windsurf/
+
+# -----------------------------
+# GitHub / CI / Next generated
+# -----------------------------
+.git/
+.github/
+.next/
+.out/
+
+# -----------------------------
+# Agent skills data (keep site code, ignore generated data)
+# -----------------------------
+# If you want to keep .agent/ content out entirely, remove the section below.
+# Otherwise, ignore only the typically-large/generated data files.
+.agent/skills/**/data/
+.agent/skills/**/data/*.csv
+.agent/skills/**/data/**/*.csv
+.agent/skills/**/data/*.json
+.agent/skills/**/data/*.log
+.agent/skills/**/data/**/*.log
+
