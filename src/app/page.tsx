@@ -155,8 +155,8 @@ function ChapterRail({ progress }: { progress: ReturnType<typeof useScroll>["scr
   // Each pair aligns a section's scroll offset with its dot's vertical position
   const height = useTransform(
     progress,
-    [0,    0.10, 0.20, 0.46, 0.66, 0.82, 1],
-    ["0%", "4%", "16%","32%","44%","56%","100%"]
+    [0, 0.10, 0.20, 0.46, 0.66, 0.82, 1],
+    ["0%", "4%", "16%", "32%", "44%", "56%", "100%"]
   );
 
   return (
@@ -229,7 +229,7 @@ export default function Home() {
         <section id="chapter-0" className="hero-page" ref={introRef}>
           <motion.div className="cover-card" style={{ y: coverY, rotate: coverRotate }}>
             <div className="cover-kicker" data-ink>
-              <span>GIKI CS / DevOps / Security</span>
+              <span>GIKI CS / DevOps / CyberSecurity / Networks</span>
               <span>Issue 2026</span>
             </div>
             <div className="hero-grid">
@@ -263,7 +263,7 @@ export default function Home() {
                 />
                 <div className="impact-burst">
                   <Sparkles size={28} aria-hidden="true" />
-                  <span>Creative systems engineer</span>
+                  <span>Creative Thinker and Problem Solver</span>
                 </div>
               </div>
             </div>
