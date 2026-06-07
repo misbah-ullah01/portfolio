@@ -740,6 +740,7 @@ main {
 }
 
 .contact-actions {
+  display: flex;
   justify-content: center;
   width: 100%;
 }
@@ -845,6 +846,7 @@ main {
   }
 
   .contact-actions {
+    display: flex;
     justify-content: flex-start;
   }
 }
