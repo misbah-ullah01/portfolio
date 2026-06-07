@@ -79,3 +79,15 @@ next-env.d.ts
 .agent/skills/**/data/*.log
 .agent/skills/**/data/**/*.log
 
+*__pycache__
+
+# -----------------------------
+# Non-code / raw assets (not part of the build)
+# -----------------------------
+/images/
+design-system/
+resume/
+
+# Markdown files (keep only README)
+*.md
+!README.md
